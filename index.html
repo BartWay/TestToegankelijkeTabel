@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CSV to HTML Table</title>
     <meta name="author" content="Derek Eder">
-    <meta content="Toont elk CSV bestand als een doorzoekbare, en filterbare,  HTML tabel">
+    <meta content="Toont elk CSV bestand als een doorzoekbare, en filterbare HTML tabel">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
@@ -21,9 +21,7 @@
             <div class="col">
                 <h1>CSV to HTML Table</h1>
 
-                <p>Test met een doorzoekbare en filterbare tabel. <a
-                        href="https://github.com/derekeder/csv-to-html-table">Code
-                        on GitHub</a>.</p>
+                <p>Test met een doorzoekbare en filterbare tabel. 
 
                 <p> De testdata in deze tabel is hetzelfde als op <a href="https://bartway.github.io/leaflet-maps-with-google-sheets/">
                     deze testkaart</a>.
@@ -35,7 +33,7 @@
         <footer class="row">
             <div class="col">
                 <hr>
-                <p class="text-right"><a href="https://github.com/derekeder/csv-to-html-table">CSV to HTML Table</a> by
+                <p class="text-right"><a href="https://github.com/derekeder/csv-to-html-table"> met dank aan: "CSV to HTML Table" van </a> by
                     <a href="http://derekeder.com">Derek
                         Eder</a></p>
             </div>
@@ -58,7 +56,7 @@
         CsvToHtmlTable.init({
             csv_path: "data/DemoDataToegankelijkAmsterdam.csv",
             element: "table-container",
-            allow_download: true,
+            allow_download: false,
             csv_options: {
                 separator: ",",
                 delimiter: '"'
